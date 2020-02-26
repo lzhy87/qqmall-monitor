@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6a7d88c7-736e-46e0-a81d-cb717aedf9e7" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="qqcmall-monitor" />
+  </component>
+  <component name="GOROOT" path="C:\Go" />
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1XxTpW5fmzzKCsau8GcV5xcTP0i" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="go.sdk.automatically.set" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../qqcmall_beego" />
+  </component>
+  <component name="RunManager" selected="Go Build.go build github.com/lzhy87/qqcmall-monitor">
+    <configuration name="go build checksevice.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="qqcmall-monitor" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="DIRECTORY" />
+      <filePath value="$PROJECT_DIR$/utils/checksevice.go" />
+      <directory value="$PROJECT_DIR$" />
+      <output_directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build github.com/lzhy87/qqcmall-monitor" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="qqcmall-monitor" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/main.go" />
+      <package value="github.com/lzhy87/qqcmall-monitor" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go Build.go build github.com/lzhy87/qqcmall-monitor" />
+        <item itemvalue="Go Build.go build checksevice.go" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6a7d88c7-736e-46e0-a81d-cb717aedf9e7" name="Default Changelist" comment="" />
+      <created>1581986928123</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1581986928123</updated>
+      <workItem from="1581986929367" duration="2271000" />
+      <workItem from="1581989219626" duration="26000" />
+      <workItem from="1581989425217" duration="662000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="872" y="361" key="#Intentions" timestamp="1582075866054">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="872" y="361" key="#Intentions/0.0.2560.1400@0.0.2560.1400" timestamp="1582075866054" />
+    <state x="1193" y="453" key="#xdebugger.XInspectDialog" timestamp="1582076765691">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1193" y="453" key="#xdebugger.XInspectDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1582076765691" />
+    <state x="1035" y="407" key="#xdebugger.evaluate" timestamp="1582076764300">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1035" y="407" key="#xdebugger.evaluate/0.0.2560.1400@0.0.2560.1400" timestamp="1582076764300" />
+    <state x="1060" y="458" key="FileChooserDialogImpl" timestamp="1582174457424">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1060" y="458" key="FileChooserDialogImpl/0.0.2560.1400@0.0.2560.1400" timestamp="1582174457424" />
+    <state width="2517" height="492" key="GridCell.Tab.0.bottom" timestamp="1582090381168">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="492" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1582090381168" />
+    <state width="2517" height="492" key="GridCell.Tab.0.center" timestamp="1582090381168">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="492" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1582090381168" />
+    <state width="2517" height="492" key="GridCell.Tab.0.left" timestamp="1582090381168">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="492" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1582090381168" />
+    <state width="2517" height="492" key="GridCell.Tab.0.right" timestamp="1582090381168">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="492" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1582090381168" />
+    <state width="2517" height="492" key="GridCell.Tab.1.bottom" timestamp="1582090381168">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="492" key="GridCell.Tab.1.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1582090381168" />
+    <state width="2517" height="492" key="GridCell.Tab.1.center" timestamp="1582090381168">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="492" key="GridCell.Tab.1.center/0.0.2560.1400@0.0.2560.1400" timestamp="1582090381168" />
+    <state width="2517" height="492" key="GridCell.Tab.1.left" timestamp="1582090381168">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="492" key="GridCell.Tab.1.left/0.0.2560.1400@0.0.2560.1400" timestamp="1582090381168" />
+    <state width="2517" height="492" key="GridCell.Tab.1.right" timestamp="1582090381168">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="492" key="GridCell.Tab.1.right/0.0.2560.1400@0.0.2560.1400" timestamp="1582090381168" />
+  </component>
+</project>
