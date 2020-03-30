@@ -7,7 +7,7 @@ pipeline {
       }
     }
 
-    stage('') {
+    stage('go build') {
       steps {
         sh '''date_time=`date +%Y%m%d\\-%H%M%S`
 #Create GOPATH
@@ -16,6 +16,8 @@ export PATH=$GOPATH:$PATH
 export GO111MODULE=on
 export GOPROXY=https://goproxy.io
 export ENV=local
+
+go build
 '''
       }
     }
