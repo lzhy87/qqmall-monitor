@@ -1,0 +1,46 @@
+2020/02/11 11:49:16.994 [E] [checksevice.go:67]  邮件发送失败：gomail: could not send email 1: gomail: invalid address "qqcmall server:PCMICRO-KDDAMHI<55900695@qq.com>": mail: expected comma
+2020/02/11 11:49:18.512 [E] [checksevice.go:67]  邮件发送失败：gomail: could not send email 1: gomail: invalid address "qqcmall server:PCMICRO-KDDAMHI<55900695@qq.com>": mail: expected comma
+2020/02/11 11:49:20.433 [E] [checksevice.go:67]  邮件发送失败：gomail: could not send email 1: gomail: invalid address "qqcmall server:PCMICRO-KDDAMHI<55900695@qq.com>": mail: expected comma
+2020/02/11 11:49:25.904 [E] [checksevice.go:67]  邮件发送失败：gomail: could not send email 1: gomail: invalid address "qqcmall server:PCMICRO-KDDAMHI<55900695@qq.com>": mail: expected comma
+2020/02/11 11:49:27.774 [E] [checksevice.go:67]  邮件发送失败：gomail: could not send email 1: gomail: invalid address "qqcmall server:PCMICRO-KDDAMHI<55900695@qq.com>": mail: expected comma
+2020/02/11 11:49:30.499 [E] [checksevice.go:67]  邮件发送失败：gomail: could not send email 1: gomail: invalid address "qqcmall server:PCMICRO-KDDAMHI<55900695@qq.com>": mail: expected comma
+2020/02/11 11:49:32.112 [E] [checksevice.go:67]  邮件发送失败：gomail: could not send email 1: gomail: invalid address "qqcmall server:PCMICRO-KDDAMHI<55900695@qq.com>": mail: expected comma
+2020/02/11 11:49:33.798 [E] [checksevice.go:67]  邮件发送失败：gomail: could not send email 1: gomail: invalid address "qqcmall server:PCMICRO-KDDAMHI<55900695@qq.com>": mail: expected comma
+2020/02/11 11:51:22.710 [E] [checksevice.go:67]  邮件发送失败：gomail: could not send email 1: gomail: invalid address "qqcmall server:PCMICRO-KDDAMHI <55900695@qq.com>": mail: expected comma
+2020/02/11 11:51:24.820 [E] [checksevice.go:67]  邮件发送失败：gomail: could not send email 1: gomail: invalid address "qqcmall server:PCMICRO-KDDAMHI <55900695@qq.com>": mail: expected comma
+2020/02/11 12:41:44.175 [E] [main.go:13]  config配置件读取失败%!(EXTRA *os.PathError=open conf/app1.conf: The system cannot find the file specified.)
+2020/02/11 12:46:57.323 [E] [main.go:14]  config配置件读取失败open conf/app1.conf: The system cannot find the file specified.
+2020/02/11 12:47:20.973 [E] [main.go:14]  config配置件读取失败open conf/app1.conf: The system cannot find the file specified.
+2020/02/11 14:19:47.779 [E] [checksevice.go:82]  （可能正在重启服务）qqcmall服务未启动，端口监听未启用,端口号为：3306，重新检测时间为:5秒，检查次数为3次
+2020/02/11 14:20:20.712 [E] [checksevice.go:82]  （可能正在重启服务）qqcmall服务未启动，端口监听未启用,端口号为：3306，重新检测时间为:5秒，检查次数为3次
+2020/02/11 14:34:00.916 [E] [checksevice.go:83]  （可能正在重启服务）qqcmall服务未启动，端口监听未启用,端口号为：3306，重新检测时间为:5秒，检查次数为3次
+2020/02/11 14:47:00.929 [E] [checksevice.go:83]  （可能正在重启服务）qqcmall服务未启动，端口监听未启用,端口号为：3306，重新检测时间为:5秒，检查次数为3次
+2020/02/11 14:48:55.959 [E] [checksevice.go:83]  （可能正在重启服务）qqcmall服务未启动，端口监听未启用,端口号为：3306，重新检测时间为:5秒，检查次数为3次
+2020/02/11 14:51:55.144 [E] [checksevice.go:84]  （可能正在重启服务）qqcmall服务未启动，端口监听未启用,端口号为：3306，重新检测时间为:5秒，检查次数为3次
+2020/02/11 14:52:49.254 [E] [checksevice.go:84]  （可能正在重启服务）qqcmall服务未启动，端口监听未启用,端口号为：3306，重新检测时间为:5秒，检查次数为3次
+2020/02/11 14:54:00.075 [E] [checksevice.go:84]  （可能正在重启服务）qqcmall服务未启动，端口监听未启用,端口号为：3306，重新检测时间为:5秒，检查次数为3次
+2020/02/11 15:00:14.018 [E] [checksevice.go:84]  （可能正在重启服务）qqcmall服务未启动，端口监听未启用,端口号为：3306，重新检测时间为:5秒，检查次数为3次
+2020/02/11 15:02:07.195 [E] [checksevice.go:84]  （可能正在重启服务）qqcmall服务未启动，端口监听未启用,端口号为：3306，重新检测时间为:5秒，检查次数为3次
+2020/02/11 15:04:35.967 [E] [checksevice.go:84]  （可能正在重启服务）qqcmall服务未启动，端口监听未启用,端口号为：3306，重新检测时间为:5秒，检查次数为3次
+2020/02/11 15:06:29.550 [E] [checksevice.go:84]  （可能正在重启服务）qqcmall服务未启动，端口监听未启用,端口号为：3306，重新检测时间为:5秒，检查次数为3次
+2020/02/11 15:08:22.168 [E] [checksevice.go:84]  （可能正在重启服务）qqcmall服务未启动，端口监听未启用,端口号为：3306，重新检测时间为:5秒，检查次数为3次
+2020/02/11 15:11:28.603 [E] [checksevice.go:121]  ******邮件已发送*********服务未调用成功,错误代码:404 
+2020/02/11 15:12:42.155 [E] [checksevice.go:122]  ******邮件已发送*********服务未调用成功,错误代码:404 
+2020/02/11 15:14:48.055 [E] [checksevice.go:122]  ******邮件已发送*********服务未调用成功,错误代码:404 
+2020/02/11 15:19:39.627 [E] [checksevice.go:125]  ******邮件已发送*********服务未调用成功,错误代码:404 
+2020/02/11 15:20:50.601 [E] [checksevice.go:125]  ******邮件已发送*********服务未调用成功,错误代码:404 
+2020/02/11 15:37:01.171 [E] [checksevice.go:126]  邮件发送失败：gomail: could not send email 1: gomail: invalid address "1610469455@qq.com\" \"55900695@qq.com": mail: expected single address, got "\" \"55900695@qq.com"
+2020/02/11 15:38:22.490 [E] [checksevice.go:126]  邮件发送失败：gomail: could not send email 1: gomail: invalid address "1610469455@qq.com 55900695@qq.com": mail: expected single address, got "55900695@qq.com"
+2020/02/11 15:39:01.407 [E] [checksevice.go:126]  邮件发送失败：gomail: could not send email 1: gomail: invalid address "1610469455@qq.com 55900695@qq.com": mail: expected single address, got "55900695@qq.com"
+2020/02/11 15:39:31.959 [E] [checksevice.go:126]  邮件发送失败：gomail: could not send email 1: gomail: invalid address "1610469455@qq.com,55900695@qq.com": mail: expected single address, got ",55900695@qq.com"
+2020/02/11 15:51:45.043 [E] [checksevice.go:127]  邮件发送失败：gomail: could not send email 1: gomail: invalid address "1610469455@qq.com 55900695@qq.com": mail: expected single address, got "55900695@qq.com"
+2020/02/11 15:53:44.521 [E] [checksevice.go:127]  邮件发送失败：gomail: could not send email 1: gomail: invalid address "1610469455@qq.com,55900695@qq.com": mail: expected single address, got ",55900695@qq.com"
+2020/02/11 16:02:06.317 [E] [checksevice.go:131]  ******邮件已发送*********服务未调用成功,错误代码:404 
+2020/02/11 16:58:40.085 [E] [checksevice.go:133]  ******邮件已发送*********服务未调用成功,错误代码:404 
+2020/02/12 15:35:22.578 [E] [checksevice.go:92]  （可能正在重启服务）qqcmall服务未启动，端口监听未启用,端口号为：3306，重新检测时间为:5秒，检查次数为3次
+2020/02/18 08:58:37.483 [E] [checksevice.go:101]  （可能正在重启服务）qqcmall服务未启动，端口监听未启用,端口号为：3306，重新检测时间为:5秒，检查次数为3次
+2020/02/18 09:11:36.833 [E] [checksevice.go:102]  （可能正在重启服务）qqcmall服务未启动，端口监听未启用,端口号为：3306，重新检测时间为:5秒，检查次数为3次
+2020/02/18 09:13:29.814 [E] [checksevice.go:102]  （可能正在重启服务）qqcmall服务未启动，端口监听未启用,端口号为：3306，重新检测时间为:5秒，检查次数为3次
+2020/02/18 09:14:43.034 [E] [checksevice.go:102]  （可能正在重启服务）qqcmall服务未启动，端口监听未启用,端口号为：3306，重新检测时间为:5秒，检查次数为3次
+2020/02/18 09:18:37.739 [E] [checksevice.go:103]  （可能正在重启服务）qqcmall服务未启动，端口监听未启用,端口号为：3306，重新检测时间为:5秒，检查次数为3次
+2020/02/18 10:00:45.336 [E] [checksevice.go:103]  （可能正在重启服务）qqcmall服务未启动，端口监听未启用,端口号为：3306，重新检测时间为:5秒，检查次数为3次
