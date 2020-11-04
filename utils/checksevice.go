@@ -1,16 +1,15 @@
 package utils
 
 import (
+	"fmt"
 	"log"
 	"net"
 	"net/http"
 	"os"
-	"strconv"
 	"strings"
 	"time"
 
 	"github.com/astaxie/beego/config"
-	"gopkg.in/gomail.v2"
 )
 
 var (
@@ -127,84 +126,45 @@ func CheckService() {
 	//}
 	//pprof.WriteHeapProfile(file)
 	//defer file.Close()
-
-	var num1 int
+	num1 := 1
 	sendFlag := false
 	for {
 		time.Sleep(time.Second * time.Duration(apitime))
 		for _, s := range serviceNames {
 			req, err := http.Get(s)
-
 			if err != nil {
-				Logs.Warning("服务已经关闭，无法连接上" + s)
-				continue
-			}
-			req.Body.Close()
-
-			if req.StatusCode == 200 {
-				num1 = 0
-				Logs.Info(req.Status)
-				Logs.Info("服务正常运行中")
-			} else {
+				Logs.Error("服务已经关闭，无法连接上" + s)
 				num1++
+
 				time.Sleep(time.Second * time.Duration(serverrestarttime))
 				Logs.Warning("服务接口检测失败，正在重新检测中,第%v次检测中。。。", num1)
+				fmt.Println(num1)
 				if num1 >= 3 && !sendFlag {
 					num1 = 0
-					body = "服务未调用成功,错误代码:" + req.Status
-					err := SendMail(mailTo, subject, body)
-					if err != nil {
-						Logs.Error("邮件发送失败：%v", err)
+
+					err := DingToInfo("告警：" + s + "服务出现问题，请及时处理")
+
+					if err != true {
+						Logs.Error("钉钉告警信息发送失败！")
 						return
 					}
-					Logs.Error("******邮件已发送*********服务未调用成功,错误代码:%v", req.Status)
+					// Logs.Error("******邮件已发送*********服务未调用成功,错误代码:%v", req.Status)
+					Logs.Error("******钉钉告警信息已发送*********服务未调用成功,错误代码:%v", req.Status)
 					sendFlag = true
+					continue
 				} else if sendFlag {
 					num1 = -10
 					sendFlag = false
 				}
+				continue
 			}
+
+			if req.StatusCode == 200 {
+				// num1 = 0
+				Logs.Info(s + "服务正常运行中")
+
+			}
+			// req.Body.Close()
 		}
 	}
 }
-
-//SendMail 发送邮件
-func SendMail(mailTo []string, subject string, body string) error {
-	//定义邮箱服务器连接信息，如果是阿里邮箱 pass填密码，qq邮箱填授权码
-	mailConn := map[string]string{
-		// "user": "55900695@qq.com",
-		// "pass": "ynxxuwgmpeovbgbd",
-		// "host": "smtp.qq.com",
-		// "port": "465",
-		"user": user,
-		"pass": pass,
-		"host": host,
-		"port": port,
-	}
-
-	port, _ := strconv.Atoi(mailConn["port"]) //转换端口类型为int
-
-	m := gomail.NewMessage()
-	m.SetHeader("From", "qqcmall server "+hostname+" <"+mailConn["user"]+">") //这种方式可以添加别名，即“XD Game”， 也可以直接用<code>m.SetHeader("From",mailConn["user"])</code> 读者可以自行实验下效果
-	m.SetHeader("To", mailTo...)                                              //发送给多个用户
-	m.SetHeader("Subject", subject)                                           //设置邮件主题
-	m.SetBody("text/html", body)                                              //设置邮件正文
-
-	d := gomail.NewDialer(mailConn["host"], port, mailConn["user"], mailConn["pass"])
-
-	err := d.DialAndSend(m)
-	return err
-
-}
-
-/*  //定义收件人
-  mailTo := []string {
- "zhangqiang@xxx.com",
- "abc@qq.com",
-"sssdd@qq.com",
- }
-//邮件主题为"Hello"
- subject := "Hello"
-// 邮件正文
- body := "Good"
- SendMail(mailTo, subject, body)*/
